@@ -125,6 +125,8 @@ public class Player
     {
         if (!canShoot) return;
 
+        ball.SetActive(false);
+
         Vector3 shootDir = root.transform.forward;
 
         //canShoot = false; // duh you can only shoot one ball

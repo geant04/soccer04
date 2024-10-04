@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7759424226387191734
+--- !u!114 &-8043134613849331034
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,10 +20,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DotFlagEffect Variant
+  m_Name: DotFlagEffect Variant 4 Variant
   m_Shader: {fileID: -6465566751694194690, guid: 004f3f5c9e03780488cb69518ce40768,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 5e40bbaefb8067345bfffcaa3d794047, type: 2}
+  m_Parent: {fileID: 2100000, guid: 5bca21b3848a9da4f82011c53f441218, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -38,18 +38,21 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _SampleTexture:
-        m_Texture: {fileID: 2800000, guid: f268fbfe7cc254a4fa57188a519b5fc4, type: 3}
+        m_Texture: {fileID: 2800000, guid: bce0226418fe35a4a882ca696f68ea40, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _GridUp: 1
-    - _Scale: 2
-    - _SecondScale: 4
-    - _Speed: 4
+    - _Scale: 0.5
+    - _SecondScale: 15.6
+    - _Speed: 8
     m_Colors:
     - _Background: {r: 0, g: 0, b: 0, a: 1}
     - _BrightnessRange: {r: 0.1, g: 1, b: 0, a: 0}
-    - _Direction: {r: 0, g: 1, b: 0, a: 0}
-    - _Emission: {r: 6.8831816, g: 3.7118726, b: 5.233711, a: 0}
+    - _Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _Emission: {r: 6.6723576, g: 8.577669, b: 16.768688, a: 0}
+    - _Offset: {r: 1, g: 0, b: 0, a: 0}
+    - _SlideSpeed: {r: 0.4, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 1.5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
