@@ -14,6 +14,9 @@ public class WinBox : MonoBehaviour
         {
             isWin = true;
             Debug.Log("Win!!!");
+            gameObject.SetActive(false);
+
+            GameManager.Instance.Win();
         }
     }
 }

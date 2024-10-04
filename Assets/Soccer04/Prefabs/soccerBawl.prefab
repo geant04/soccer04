@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3651229521024096618}
   - component: {fileID: 6798651154059023967}
   - component: {fileID: 4689561035058626411}
+  - component: {fileID: 3906584853128936860}
   m_Layer: 0
   m_Name: soccerBawl
   m_TagString: ShotBall
@@ -133,3 +134,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3906584853128936860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7286347874360063755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df188d2827442144bb1b053c61de1c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
